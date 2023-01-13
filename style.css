@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    background: #2193b0;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+#score {
+    border: 1px solid white;
+    padding: 16px;
+    font-size: 40px;
+}
+
+.arena {
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform-origin: top;
+}
+
+.tali {
+    width: 4px;
+    height: 200px;
+    background: red;
+}
+
+.biji {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #2193b0;
+    border: 1px solid white;
+
+}
